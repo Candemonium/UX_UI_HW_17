@@ -42,45 +42,52 @@ a {
 
 ul {
     width: 100%;
-    
+
 }
 
-.heroImg {
-    height: 60px;
-    padding: 25px;
+
+
+.case-studies-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 32px;
 }
 
-.content {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    position: relative;
+.case-study-row {
+
+    display: flex;
+    flex-direction: row;
 }
 
-.image-top {
-    grid-column: 1/span 8;
-    grid-row: 1;
-    padding-top: 20%;
-    z-index: 1;
-    margin-top: 25%;
-    margin-left: 10%;
+.case-study-with-text {
+    display: flex;
+    flex-direction: column;
 }
 
-.image-bottom {
-    grid-column: 4/-1;
-    grid-row: 1;
+.case-study-text {
+    width: 250px;
 }
+
+.case-study-image {
+    border: 2px solid grey;
+    margin: 2%;
+    /* width: 35%; */
+}
+
+
 
 footer {
     display: flex;
-    position: relative;
-    margin-top: 1000px;
+    position: absolute;
+    bottom: 0%;
     justify-content: center;
     background-color: #373738;
     width: 100%;
     padding: 1%;
 }
 
-footer>ul {
+.footerList {
     display: flex;
     justify-content: center;
     vertical-align: top;

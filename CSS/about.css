@@ -46,14 +46,22 @@ ul {
 }
 
 .heroImg {
+    display: flex;
+    justify-content: center;
     height: 60px;
     padding: 25px;
 }
 
 .content {
+    width: 33%;
+    margin-left: 5%;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     position: relative;
+}
+
+.bodyCopy {
+    margin-left: 5%;
 }
 
 .image-top {
